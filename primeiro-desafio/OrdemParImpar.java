@@ -5,7 +5,7 @@ import java.util.Scanner;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class App {
+public class OrdemParImpar {
   public static void main(String[] args) throws Exception {
     List<Integer> listaNumerosOrdem = new ArrayList<>();
     Set<Integer> listaNumerosPares = new TreeSet<>();
