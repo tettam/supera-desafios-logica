@@ -14,8 +14,8 @@ public class OrdemParImpar {
     try(Scanner scanner = new Scanner(System.in)) {
       int quantidadeValores = ValidarValoresEntrada.validarQuantidadeEntradas(scanner);
           
+      System.out.println("Adicione o(s) numeros(s)");
       for (int i = 0; i < quantidadeValores; i++) {
-
         int novoNumero = ValidarValoresEntrada.validarNumeroEntrada(scanner);
         if(novoNumero % 2 == 0){
           listaNumerosPares.add(novoNumero);

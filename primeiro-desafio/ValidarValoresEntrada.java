@@ -7,6 +7,7 @@ public class ValidarValoresEntrada {
     int entradasNecessarias = 0; 
 
     while (!entradaValida) {
+      System.out.println("Quantidade de entradas");
       entradasNecessarias = scanner.nextInt();
       
       if(entradasNecessarias > 1 && entradasNecessarias <= 10){    
